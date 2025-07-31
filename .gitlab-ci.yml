@@ -1,0 +1,5 @@
+stages:
+  - code_sync
+include:
+  - project: 'test/ci-templates'
+    file: '/mirror/github_sync_ssh.yml'
